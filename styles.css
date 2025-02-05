@@ -150,3 +150,51 @@ footer {
   background-color: #1e1e1e;
   margin-top: 20px;
 }
+
+.reviews-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+  max-width: 800px;
+  margin: 0 auto;
+  position: relative;
+}
+
+.review-card {
+  background: #1e1e1e;
+  padding: 20px;
+  border-radius: 10px;
+  max-width: 500px;
+  text-align: center;
+  transition: all 0.3s ease-in-out;
+}
+
+.review-text {
+  font-size: 18px;
+  font-style: italic;
+}
+
+.review-author {
+  margin-top: 10px;
+  font-size: 20px;
+  color: #ff9900;
+}
+
+.review-role {
+  font-size: 14px;
+  color: #aaaaaa;
+}
+
+.review-nav {
+  background: none;
+  border: none;
+  font-size: 24px;
+  cursor: pointer;
+  color: #ff9900;
+  transition: color 0.3s ease-in-out;
+}
+
+.review-nav:hover {
+  color: #e68900;
+}
